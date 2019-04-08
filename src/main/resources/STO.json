@@ -1,0 +1,244 @@
+{
+      "stoForCars": {
+        "name": "STO100",
+        "numberOfPosts": 10,
+        "address": {
+          "country": "Belarus",
+          "city": "Minsk",
+          "street": "Lenina",
+          "house": 15
+        },
+        "cars": [
+		{
+          "passengerCarReal": {
+            "model": "BMW",
+            "year": 2006,
+            "enginePower": 4000,
+            "lenght": 5,
+            "width": 2,
+            "costOfCar": 4000,
+            "numberOfPassengers": 5,
+            "insurance": {
+              "validity": "2years",
+              "driverAge": 25,
+              "driverExperience": 2,
+              "data": "12-10-2018"
+            },
+            "crash": {
+              "name": "engine",
+              "number": 1,
+              "cost": 600
+            }
+          },
+          "cabriolet": {
+            "model": "Mustang",
+            "year": 2010,
+            "enginePower": 4000,
+            "lenght": 5,
+            "width": 2,
+            "costOfCar": 1000000,
+            "numberOfPassengers": 2,
+            "retractableRoof": "yes",
+            "insurance": {
+              "validity": "5years",
+              "driverAge": 30,
+              "driverExperience": 7,
+              "data": "25-11-2017"
+            },
+            "crash": {
+              "name": "door",
+              "number": 1,
+              "cost": 1000
+            }
+          },
+          "crossover": {
+            "model": "Honda",
+            "year": 2016,
+            "enginePower": 4000,
+            "lenght": 5,
+            "width": 2,
+            "costOfCar": 50000,
+            "numberOfPassengers": 8,
+            "fourwheelDrive": "yes",
+            "insurance": {
+              "validity": "3years",
+              "driverAge": 28,
+              "driverExperience": 3,
+              "data": "25-11-2018"
+            },
+            "crash": {
+              "name": "door",
+              "number": 1,
+              "cost": 1000
+            }
+          },
+          "minivan": {
+            "model": "Nissan",
+            "year": 1998,
+            "enginePower": 4600,
+            "lenght": 4,
+            "width": 2,
+            "costOfCar": 50000,
+            "numberOfPassengers": 8,
+            "extraSeats": 3,
+            "insurance": {
+              "validity": "2years",
+              "driverAge": 25,
+              "driverExperience": 2,
+              "data": "12-10-2018"
+            },
+            "crash": {
+              "name": "roof",
+              "number": 1,
+              "cost": 5000
+            }
+          },
+          "pickup": {
+            "model": "Chevrolet",
+            "year": 1999,
+            "enginePower": 4600,
+            "lenght": 6,
+            "width": 2,
+            "costOfCar": 7000,
+            "numberOfPassengers": 5,
+            "cargoPlatform": "yes",
+            "insurance": {
+              "validity": "3years",
+              "driverAge": 27,
+              "driverExperience": 5,
+              "data": "10-10-2018"
+            },
+            "crash": {
+              "name": "coal",
+              "number": 2,
+              "cost": 750
+            }
+          }
+        }]
+      },
+      "stoForElectrocar": {
+        "name": "ElectroSTO",
+        "numberOfPosts": 5,
+        "highVSocket": 5,
+        "newBattery": 10,
+        "address": {
+          "country": "Belarus",
+          "city": "Minsk",
+          "street": "Nezavisimosti",
+          "house": 115
+        },
+        "cars":[ 
+		{
+          "electrocar": {
+            "model": "Jaguar",
+            "year": 2018,
+            "enginePower": 4000,
+            "lenght": 5,
+            "width": 2,
+            "costOfCar": 5000000,
+            "numberOfPassengers": 5,
+            "battery": "yes",
+            "insurance": {
+              "validity": "10years",
+              "driverAge": 35,
+              "driverExperience": 15,
+              "data": "12-10-2018"
+            },
+            "crash": {
+              "name": "window",
+              "number": 1,
+              "cost": 6000
+            }
+          }
+        }]
+      },
+      "stoForTrucks": {
+        "name": "STOgruz",
+        "numberOfPosts": 3,
+        "heavyWeightStand": 3,
+        "cargoLift": 3,
+        "address": {
+          "country": "Belarus",
+          "city": "Minsk",
+          "street": "Kolasa",
+          "house": 81
+        },
+        "cars": [
+		{
+          "dumpTruck": {
+            "model": "MAZ",
+            "year": 2005,
+            "enginePower": 6000,
+            "lenght": 6,
+            "width": 2,
+            "costOfCar": 12000,
+            "carrying": 8,
+            "tailBoard": "yes",
+            "insurance": {
+              "validity": "2years",
+              "driverAge": 38,
+              "driverExperience": 2,
+              "data": "12-10-2018"
+            },
+            "crash": {
+              "name": "coal",
+              "number": 4,
+              "cost": 750
+            }
+          },
+          "truck": {
+            "model": "KamAZ",
+            "year": 2014,
+            "enginePower": 6000,
+            "lenght": 6,
+            "width": 2,
+            "costOfCar": 12000,
+            "carrying": 8,
+            "body": "yes",
+            "insurance": {
+              "validity": "2years",
+              "driverAge": 45,
+              "driverExperience": 2,
+              "data": "12-10-2018"
+            },
+            "crash": {
+              "name": "coal",
+              "number": 2,
+              "cost": 750
+            }
+          },
+          "tracktor": {
+            "model": "KamAZ",
+            "year": 2008,
+            "enginePower": 6000,
+            "lenght": 10,
+            "width": 2,
+            "costOfCar": 24000,
+            "carrying": 8,
+            "trailer": "yes",
+            "insurance": {
+              "validity": "2years",
+              "driverAge": 29,
+              "driverExperience": 2,
+              "data": "12-10-2018"
+            },
+            "crash": {
+              "name": "engine",
+              "number": 1,
+              "cost": 3000
+            }
+          }
+        }]
+    },
+    "client": {
+      "name": "Ivan Sidorov",
+      "money": "5000",
+      "address": {
+        "country": "Belarus",
+        "city": "Minsk",
+        "street": "Horyjey",
+        "house": "25",
+        "flat": "31"
+		}
+    }
+	}
